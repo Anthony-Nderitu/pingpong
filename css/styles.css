@@ -1,0 +1,13 @@
+.title {
+  text-align: center;
+  background-color: orange;
+}
+
+.col-md-3 {
+  text-align: center;
+  background-color: green;
+}
+
+.col-md-9 {
+  background-color: grey;
+}
