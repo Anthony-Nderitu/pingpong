@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html>
 
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <title>Ping Pong</title>
+  </head>
+
+  <body>
+    <div class="title">
+      <div class="row">
+        <h1>Ping-Pong</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="about">
+        <div class="col-md-3">
+          <h2>About Ping Pong</h2>
+          <h3>Created by:</h3>
+          <p>Anthony Nderitu</p>
+          <h3>Github Username/URL:</h3>
+          <p></p>
+          <h3>Level 2 Test for</h3>
+          <p>Java</p>
+        </div>
+      </div>
+      <div class="play">
+        <div class="col-md-9">
+          <h2>Let's play!</h2>
+          <h3>Rules:</h3>
+          <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
+          <ol>
+            <li>Numbers divisible by 3 become "ping"</li>
+            <li>Numbers divisible by 5 become "pong"</li>
+            <li>Numbers divisible by 3 and 5 become "pingpong"</li>
+          </ol>
+          <div id="pingpong">
+            <form>
+              <div class="form-group">
+                <label for="number">Enter your number here:</label>
+                <input id=number type="text">
+                <button type="submit" class="btn">Ping Pong</button>
+              </div>
+
+            </form>
+            <div id="result">
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </body>
+
+</html>
