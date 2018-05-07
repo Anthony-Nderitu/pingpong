@@ -11,3 +11,8 @@
 .col-md-9 {
   background-color: grey;
 }
+body {
+  background-image: url("../pinpong.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
