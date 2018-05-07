@@ -14,5 +14,5 @@
 body {
   background-image: url("../pinpong.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat:  space;
 }
